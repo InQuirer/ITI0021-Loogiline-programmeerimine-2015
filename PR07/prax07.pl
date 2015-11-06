@@ -48,7 +48,7 @@ soob(Kes,Keda,Millal):-
 	is_a(Keda,Q),
 	P\=Q,
 	soob(X,Y),
-	taimne_toit(Keda),
+	taimne_toit(Y),
 	alamklass(Kes,X),
 	alamklass(Keda,Y),!.
 	
@@ -59,7 +59,7 @@ soob(Kes,Keda,Millal):-
 	is_a(Keda,Q),
 	P\=Q,
 	soob(X,Y),
-	loomne_toit(Keda),
+	loomne_toit(Y),
 	alamklass(Kes,X),
 	alamklass(Keda,Y),!.
 
